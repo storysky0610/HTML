@@ -1,0 +1,20 @@
+ul {}
+
+li {
+    /* list-style: none; */
+
+}
+
+li a {
+    background-color: chocolate;
+    width: 200px;
+    height: 60px;
+    display: block;
+    margin-bottom: 10px;
+    text-indent: 25px;
+    line-height: 60px;
+    font-family: Arial, Helvetica, "微軟正黑體", sans-serif;
+
+}
+
+li a:hover {}

@@ -1,0 +1,22 @@
+
+.box{
+    background-image: url(./box.png);
+    width: 300px;
+    height: 600px;
+    margin: auto;
+}
+.box a{
+    box-sizing: border-box;
+    display: block;
+    background-image: url(./btn01.png);
+    width: 300px;
+    height: 60px;
+    text-indent: 75px; 
+    padding-right: 70px;
+    line-height: 60px;
+    font-family: Arial, Helvetica,"微軟正黑體", sans-serif;
+    
+}
+.box a:hover{
+    background-image: url(./btn02.png);
+}

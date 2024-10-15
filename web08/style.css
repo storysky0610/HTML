@@ -1,0 +1,17 @@
+body {
+    background-image: url(./bg01.gif);
+    background-attachment:fixed;
+}
+
+div {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: rgba(235, 190, 190, 0.237);
+    background-image: url(./bg03.jpg),url(./bg04.jpg),url(./bg07.png);
+    background-position: bottom left,top right,50% 50% ;
+    /* background-repeat: repeat-x  */
+}
+
+div p {
+    text-align: justify;
+}

@@ -1,0 +1,24 @@
+body {
+    background-color: #e3bbbb;
+}
+
+h1 {
+    color: red;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: normal;
+    text-align: center;
+}
+
+h2 {
+    color: #cf3b3b;
+    font-size: 25px;
+}
+
+p {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: justify;
+    line-height: 20px;
+    letter-spacing: 20px;
+}

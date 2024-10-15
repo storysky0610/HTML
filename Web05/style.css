@@ -1,0 +1,21 @@
+body {
+    background-image: repeating-linear-gradient(30deg, red 5px, blue 20px)
+}
+
+ a {
+    display: block;
+    background-color: red;
+    text-decoration: none;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    background-image: radial-gradient(yellow 0%, blue 60%, green 100%)
+}
+
+a:hover {
+    color: yellow;
+    background-color: #2e81f4;
+     border-radius: 50%; 
+     border-radius: 25px;
+}

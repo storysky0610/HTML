@@ -1,0 +1,30 @@
+ul{
+	padding-left:0;}
+	bgc
+li{
+	list-style-type:none;
+	float: left;
+	
+	margin: 50px;
+	;
+}
+
+li a{
+	display: block;
+	width: 200px;
+	height: 50px;
+	background-color:#690;
+	text-align:center;
+	color:#FFF;
+	text-decoration:none;
+	line-height:50px;
+	margin-bottom:10px;
+}
+
+li a:hover{
+	background-color:#06C;
+	color:#FF6;	}
+
+p{
+	padding:80px 60px 0px 60px;
+}

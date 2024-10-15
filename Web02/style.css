@@ -1,0 +1,25 @@
+table {}
+
+tr {}
+
+.AAA,
+.CCC {
+    background-color: #696868be;
+    color: #b7b6b6;
+}
+
+.BBB {
+    background-color: #c3ce87;
+    color: orange;
+}
+.VVV
+{
+    background-color: aqua;
+    
+}
+.TTT{
+    margin: 0;
+}
+.FFF{
+    padding: 30px;
+}

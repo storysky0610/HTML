@@ -1,0 +1,26 @@
+body {
+    background-color: #b77070;
+
+}
+
+h1 {
+    background-color: #eb7028;
+    width: 500px;
+    height: 300px;
+}
+
+h2 {
+    background-color: #ebeb28;
+}
+
+p {
+    background-color: rgb(127, 255, 174);
+}
+
+a {
+    background-color: #777ef7;
+    display: block;
+    width: 500px;
+    height: 300px;
+}
+
