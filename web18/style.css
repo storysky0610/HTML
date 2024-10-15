@@ -16,9 +16,11 @@ body{
 .header img{
 	vertical-align:bottom;}
 .box{display: flex;
+	justify-content: center;
 }
 .box div{
-	width: 400px;
+	
+	width: 300px;
 }
 .box .b1{
 	background-color: #e53d88;
