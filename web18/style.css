@@ -16,11 +16,11 @@ body{
 .header img{
 	vertical-align:bottom;}
 .box{display: flex;
-	
+	height: 2000px;
 	justify-content: center;
 	flex-wrap: wrap;
 	padding: 18px;
-	
+	align-content: space-around;
 
 	
 	
@@ -39,6 +39,8 @@ body{
 	background-color: #e53d88;
 }
 .box .b2{background-color: aqua;
+	align-self:flex-end;
+
 
 }
 .box .b3{background-color:red;}
@@ -48,6 +50,7 @@ body{
 
 .box .b5 {
 	background-color: rgb(26, 173, 29);
+
 
 }
 
