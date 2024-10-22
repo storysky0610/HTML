@@ -19,6 +19,8 @@ p {
     font-size: 12px;
     font-weight: bold;
     text-align: justify;
+    /* 文字左右齊行 */
     line-height: 20px;
     letter-spacing: 20px;
+    /* 字寬 */
 }
