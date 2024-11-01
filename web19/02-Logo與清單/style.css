@@ -15,29 +15,77 @@ div {
     width: 1000px;
     height: 150px;
     justify-content: space-between;
-    align-items: center;
     padding: 0 20px;
-    
 
 }
-
-h1 {}
 
 ul {
     display: flex;
-    justify-content: left;
+    
 
+ 
 }
 
-li {
-    display: flex;
+li {margin: 0 10PX;
+    list-style: none;
 }
 
-a { background-repeat: no-repeat;
-    background-image: url(./icon1_1.png);
+li a {
     display: flex;
-    width: 100px;
     height: 120px;
+    width: 95px;
     align-items: flex-end;
     justify-content: center;
-} 
+    background-repeat: no-repeat;
+
+
+    
+
+    
+}
+
+
+.A {
+    background-image: url(./icon1_1.png);
+    background-repeat: no-repeat;
+}
+
+.A :hover {
+    background-image: url(./icon1_2.png);
+}
+
+.B {
+    background-image: url(./icon2_1.png);
+    background-repeat: no-repeat;
+}
+
+.B :hover {
+    background-image: url(./icon2_2.png);
+}
+
+.C {
+    background-image: url(./icon3_1.png);
+    background-repeat: no-repeat;
+}
+
+.C :hover {
+    background-image: url(./icon3_2.png);
+}
+
+.D {
+    background-image: url(./icon4_1.png);
+    background-repeat: no-repeat;
+}
+
+.D :hover {
+    background-image: url(./icon4_2.png);
+}
+
+.E {
+    background-image: url(./icon5_1.png);
+    background-repeat: no-repeat;
+}
+
+.E :hover {
+    background-image: url(./icon5_2.png);
+}
