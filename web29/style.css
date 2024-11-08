@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.heaer {
+    background-image: url(./banner.png);
+    height: 250px;
+}
+
+.heaer h1 {
+    float: left;
+    padding: 50px 250px;
+    animation: xxx 3s infinite;
+}
+@keyframes xxx {
+    0%{transform: translate(-100px,100px)  rotate(180deg);}
+25%{transform: translate(200px,100px) rotate(270deg);}
+50%{transform: translate(-100px,100px) rotate(0)}
+75%{transform: translate(200px,100px)  rotate(270deg);}
+100%{transform: 0px;}}
+.heaer ul {
+    list-style: none;
+}
+
+.heaer li {
+    float: right;
+    margin: 10px;
+}
+
+.heaer li a {}
+
+.heaer li a:hover {}
+
+.two {
+    display: flex;
+}
+
+.nav {
+    background-color: rgb(241, 170, 99);
+}
+
+.nav ul {
+    list-style: none;
+}
+
+.nav li {
+    padding: 10px;
+}
+
+.nav li a {
+    display: block;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    background-color: orange;
+    border-radius: 30px;
+    line-height: 60px;
+    box-shadow: 2px 2px 2px black;
+
+}
+
+.nav li a:hover {
+    background-color: black;
+    color: white;
+}
+
+.content {
+    padding: 10px;
+    background-color: rgb(252, 227, 182);
+}
+
+.content h3 {}
+
+.container img {
+    float: right;
+}
+
+.content p {
+    padding: 10px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+.footer h2 {}
+
+.footer h4 {}

@@ -44,21 +44,20 @@ body {
 
 .header li a:hover {}
 
-.nav {}
+.nav {padding: 10px;
+background-color: #e09b6a;}
 
 .nav ul {
+    
     display: flex;
     list-style: none;
-    overflow: hidden;
-    /* 自動高度 */
+
 
 }
 
 .nav li {
-    width: 200px;
-    height: 60px;
-    background-color: orange;
-    float: left;
+    padding-left: 10px;
+
 }
 
 
@@ -66,29 +65,38 @@ body {
     display: block;
     width: 160px;
     height: 60px;
+    background-color: orange;
     text-align: center;
-
+    border-radius: 40px;
     color: brown;
     line-height: 60px;
+    box-shadow: 2px 2px 2px black;
+
 }
 
-.nav li a:hover {}
+.nav li a:hover {background-color: #000000;}
 
-.content {}
+.content {background-color: rgb(231, 205, 171);}
 
 .content h3 {}
 
-.content p {}
+.content p {padding: 10px;}
 
-.imgp {
+.content img {
     background-image: url(./ad_img.jpg);
-    height: 248px;
-    width: 372px;
-    float: left;
-    padding: 100px;
+    height: 372px;
+    width: 248px;
+    float: right;
+    margin: 10px;
+
 }
 
-.footer {}
+.footer {
+    background-color: black;
+color: white;
+text-align: center;
+padding: 20px;
+margin: 0 auto;}
 
 .footer h2 {}
 
