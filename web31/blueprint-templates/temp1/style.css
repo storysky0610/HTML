@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url(../../bg.gif);
+    background-image: url(/share/bg.gif);
 }
 
 .container {
@@ -43,26 +43,38 @@ width: 150px;}
 .nav ul {list-style: none;
 }
 
-.nav li {padding: 10px;}
+.nav li {padding: 10px;
+border-bottom-style: dashed;
+border-bottom-color: white;}
 
 .nav li a {display: block;
-width: 120px;
+/* width: 120px; */
 height: 60px;
 text-align: center;
 line-height: 60px;
 color: white;
-border-bottom-style: dashed;
-border-bottom-color: white ;
+
+
 text-decoration: none;
 
 
 }
+.nav li:last-child{
+    border-bottom-style: none
+}
 
-
-.nav li a:hover {}
+.nav li a:hover {background-color: green;
+    color: black;
+    border-radius: 20px;
+}
 
 .content{background-color: rgb(199, 171, 94);
 width: 1150px;}
+.content h2{display: block;
+    width: 600px;
+    height: 40px;
+    background-image: url();}
+.content h3{}
 .content p{}
 
 .footer {background-color: black;
