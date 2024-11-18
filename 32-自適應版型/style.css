@@ -1,0 +1,243 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: Arial, Helvetica, "微軟正黑體", sans-serif;
+    font-size: 18px;
+}
+
+.header {
+    background-color: #f7c0c0;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+.header h1 {}
+
+.header ul {
+    display: none;
+}
+
+.header li {
+    float: left;
+    list-style: none;
+
+}
+
+.header li a {
+    margin: 5px;
+}
+
+.header li a:hover {}
+
+.banner {}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+.office {
+    background-color: #818080;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+
+.office .ofbox {
+    background-color: #5a5454;
+    width: 22%;
+    margin: 1%;
+    padding: 10px;
+    text-align: center;
+}
+
+.office .ofbox img {
+    max-width: 100%;
+    height: auto;
+}
+
+.office .ofbox p {}
+
+.ad {
+    background-color: #1b1414;
+    padding: 20px;
+    display: flex;
+}
+
+.adbox {
+    background-color: #2f3136;
+    width: 25%;
+
+
+}
+
+.ad img {
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+.nav {
+    background-color: #746969;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+
+.nav .navbox {
+    background-color: #55453e;
+    width: 12%;
+    margin: 1%;
+    padding: 20px;
+}
+
+.nav .navbox p {
+    margin-bottom: 8px;
+}
+
+.nav .navbox ul {}
+
+.nav .navbox li {
+    list-style: none;
+}
+
+.nav .navbox li a {
+    margin-bottom: 5px;
+}
+
+.nav .navbox li a:hover {}
+
+.footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer h2 {}
+
+.footer p {}
+
+/* ===平板CSS== */
+@media screen and (max-width:1200px) and (min-width:769px) {
+    .office {
+
+        flex-wrap: wrap;
+
+    }
+
+    .office .ofbox {
+        background-color: #5a5454;
+        width: 44%;
+
+    }
+
+    .ad {
+        flex-wrap: wrap;
+    }
+
+    .adbox {
+        width: 100%;
+
+    }
+
+    .ad img {
+        width: 100%;
+        height: auto;
+        vertical-align: bottom;
+    }
+
+    .nav {
+        flex-wrap: wrap;
+    }
+
+    .nav .navbox {
+        width: 30%;
+
+    }
+
+    .nav .navbox p {
+        margin-bottom: 8px;
+    }
+
+    .nav .navbox ul {}
+
+    .nav .navbox li {
+        list-style: none;
+    }
+
+    .nav .navbox li a {
+        margin-bottom: 5px;
+    }
+
+    .nav .navbox li a:hover {}
+}
+
+/* ===手機CSS== */
+@media screen and (max-width:768px) {
+    .header ul {
+        display: none;
+    }
+
+    .office {
+
+        flex-wrap: wrap;
+
+    }
+
+    .office .ofbox {
+        background-color: #556df3;
+        width: 88%;
+
+    }
+
+    .ad {
+        flex-wrap: wrap;
+    }
+
+    .adbox {
+        width: 96%;
+
+    }
+
+    .ad img {
+        width: 100%;
+        height: auto;
+        vertical-align: bottom;
+    }
+
+    .nav {
+        flex-wrap: wrap;
+    }
+
+    .nav .navbox {
+        width: 48%;
+
+    }
+
+    .nav .navbox p {
+        margin-bottom: 8px;
+    }
+
+    .nav .navbox ul {}
+
+    .nav .navbox li {
+        list-style: none;
+    }
+
+    .nav .navbox li a {
+        margin-bottom: 5px;
+    }
+
+    .nav .navbox li a:hover {}
+
+
+}
