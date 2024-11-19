@@ -1,7 +1,33 @@
-.eee {
+.allbox {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.pbox {
+.pbox {background-color: #fff;
     padding: 20px;
+    margin:10px ;
+
+}
+
+.allbox a{
+    text-decoration: none;
+    color: #000;
+}
+
+.allbox a .pbox{
+    transition:  all 1s;
+
+}
+
+.allbox a:hover .pbox {
+    background-color: #c95656;;
+
+}
+.allbox a .pbox img{
+    transition: all 1s;
+}
+
+.allbox a:hover .pbox img{
+    transform: scale(1.05);
 }
