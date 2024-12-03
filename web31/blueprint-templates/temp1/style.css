@@ -85,3 +85,20 @@ text-align: center;}
 .footer h2 {}
 
 .footer p {}
+
+/* ===平板CSS== */
+@media screen and (max-width:1200px) and (min-width:769px) {
+.footer {
+        background-color: rgb(235, 13, 13);
+
+    }
+}
+
+/* ===手機CSS== */
+@media screen and (max-width:768px) {
+.footer {
+        background-color: rgb(21, 103, 170);
+
+    }
+
+}
