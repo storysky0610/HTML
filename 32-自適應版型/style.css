@@ -20,9 +20,15 @@ body {
 
 .header h1 {}
 
-.header ul {
+.header h3 {
+
+    position: absolute;
+    right: 20px;
+    top: 25px;
     display: none;
 }
+
+.header ul {}
 
 .header li {
     float: left;
@@ -183,61 +189,83 @@ body {
 
 /* ===手機CSS== */
 @media screen and (max-width:768px) {
+    .header h3 {
+        display: block;
+    }
+
     .header ul {
         display: none;
+        background-color: #818080;
+        padding: 20px;
+        position: absolute;
+        right: 20px;
+        top:50px
     }
 
-    .office {
-
-        flex-wrap: wrap;
-
-    }
-
-    .office .ofbox {
-        background-color: #556df3;
-        width: 88%;
-
-    }
-
-    .ad {
-        flex-wrap: wrap;
-    }
-
-    .adbox {
-        width: 96%;
-
-    }
-
-    .ad img {
-        width: 100%;
-        height: auto;
-        vertical-align: bottom;
-    }
-
-    .nav {
-        flex-wrap: wrap;
-    }
-
-    .nav .navbox {
-        width: 48%;
-
-    }
-
-    .nav .navbox p {
-        margin-bottom: 8px;
-    }
-
-    .nav .navbox ul {}
-
-    .nav .navbox li {
+    .header li {
+        float: none;
         list-style: none;
+
     }
 
-    .nav .navbox li a {
-        margin-bottom: 5px;
+    .header li a {
+        margin: 5px;
     }
 
-    .nav .navbox li a:hover {}
+    .header li a:hover {}
+}
+
+.office {
+
+    flex-wrap: wrap;
+
+}
+
+.office .ofbox {
+    background-color: #556df3;
+    width: 88%;
+
+}
+
+.ad {
+    flex-wrap: wrap;
+}
+
+.adbox {
+    width: 96%;
+
+}
+
+.ad img {
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+.nav {
+    flex-wrap: wrap;
+}
+
+.nav .navbox {
+    width: 48%;
+
+}
+
+.nav .navbox p {
+    margin-bottom: 8px;
+}
+
+.nav .navbox ul {}
+
+.nav .navbox li {
+    list-style: none;
+}
+
+.nav .navbox li a {
+    margin-bottom: 5px;
+}
+
+.nav .navbox li a:hover {}
 
 
 }
