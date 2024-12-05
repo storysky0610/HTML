@@ -1,12 +1,12 @@
+
+$(function () {
+    
 $(".header h3").on("touchend click", AAA);
 function AAA() {
     $(".header ul").show();
 }
 
-$(".header .close").on("touchend click", BBB);
-function BBB() {
-    $(".header ul").hide();
-}
+
 
 $(window).on("resize", CCC);
 function CCC() {
@@ -15,3 +15,9 @@ function CCC() {
         $(".header ul").show();
     } else { $(".header ul").hide(); }
 }
+
+
+
+})
+
+
